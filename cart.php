@@ -1,6 +1,6 @@
 <?php
     require_once "Medicine.php";
-    require_once "Products.php";
+    require_once "Product.php";
 
     class Cart extends Medicine{
         private $cartItems = array();
