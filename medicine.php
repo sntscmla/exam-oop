@@ -1,7 +1,7 @@
 <?php
     require_once "Product.php";
 
-    class Medicine extends Products{
+    class Medicine extends Product{
         private $dose;
         private $type;
         private $expirationDate;
